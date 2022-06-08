@@ -15,16 +15,21 @@ const Hero = () => {
         <div class="hero-content flex-col lg:flex-row-reverse">
             <img className='w-7/12' src={profile} alt=''/>
             <div>
-            <h1 class="text-6xl font-bold">Assrafuzzaman Nur</h1>
+            <h1 class="text-4xl font-bold">Assrafuzzaman Nur</h1>
             <p class="py-6">Professional Web Developer. 3+ year of developing experience. Now working as a freelancer in Logismico Tech.</p>
-            <div className='flex gap-5 my-5'>
-            <img src={react} alt=""/>
-            <img src={node} alt=""/>
-            <img src={mongo} alt=""/>
+            <div className='flex gap-4'>
+                <div style={{height: '50px'}} className='flex gap-3 mt-16'>
+                <img src={react} alt=""/>
+                <img src={node} alt=""/>
+                <img src={mongo} alt=""/>
+                </div>
+            <br/>
+            <div>
             <img src={boot} alt=""/>
             <img src={html} alt=""/>
             <img src={css} alt=""/>
             <img src={fire} alt=""/>
+            </div>
             </div>
             <button class="btn btn-primary">
                 <Link to='/contact'>Contact</Link>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import resume from '../Resume/nurResume.pdf'
+import resume from '../Resume/nur_Resume.pdf'
 
 const Navbar = () => {
 

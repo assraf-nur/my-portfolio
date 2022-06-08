@@ -11,12 +11,12 @@ const Projects = () => {
             <div class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
             <figure><img style={{width: '200px'}} src={total} alt="Album"/></figure>
             <div class="card-body">
-                <h2 class="card-title text-5xl">Total Tools</h2>
+                <h2 class="card-title text-5xl mb-12">Total Tools</h2>
                 <div>
-                <p className='text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://total-tools-47ca6.web.app/">Total-Tools Live</a></p>
-                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://github.com/assraf-nur/Total-tools-client">Client Side Link</a></p>
-                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://github.com/assraf-nur/Total-tools-server">Server Side Link</a></p>
-                <div className='mt-5 ml-2'>
+                <p className='text-white'><a target='_blank' className='text-xl ml-2 btn btn-primary text-white' href="https://total-tools-47ca6.web.app/">Total-Tools Live</a></p>
+                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn  text-white' href="https://github.com/assraf-nur/Total-tools-client">Client Side Link</a></p>
+                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn text-white' href="https://github.com/assraf-nur/Total-tools-server">Server Side Link</a></p>
+                <div className='mt-12 ml-2'>
                     <p>Features</p>
                     • User can order their desired tools <br/>
                     • Firebase authentication activated for
@@ -38,12 +38,12 @@ const Projects = () => {
             <div class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
             <figure><img style={{width: '200px'}} src={dvalley} alt="Album"/></figure>
             <div class="card-body">
-                <h2 class="card-title text-5xl">D-Valley</h2>
+                <h2 class="card-title text-5xl mb-12">D-Valley</h2>
                 <div>
-                <p className='text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://d-valley-2a581.web.app/">D-Valley Live</a></p>
-                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://github.com/assraf-nur/D-valley-Client">Client Side Link</a></p>
-                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://github.com/assraf-nur/D-valley-Server">Server Side Link</a></p>
-                <div className='mt-5 ml-2'>
+                <p className='text-white'><a target='_blank' className='text-xl ml-2 btn  btn-primary text-white' href="https://d-valley-2a581.web.app/">D-Valley Live</a></p>
+                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn  text-white' href="https://github.com/assraf-nur/D-valley-Client">Client Side Link</a></p>
+                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn  text-white' href="https://github.com/assraf-nur/D-valley-Server">Server Side Link</a></p>
+                <div className='mt-12 ml-2'>
                     <p>Features</p>
                     • User can manage products warehouse <br/>
                     • Firebase authentication activated for
@@ -65,11 +65,11 @@ const Projects = () => {
             <div class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
             <figure><img style={{width: '200px'}} src={clicks} alt="Album"/></figure>
             <div class="card-body">
-                <h2 class="card-title text-5xl">Mohsin-Clicks</h2>
+                <h2 class="card-title text-5xl mb-12">Mohsin-Clicks</h2>
                 <div>
-                <p className='text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://mohsin-click.web.app/">Mohsin-Clicks Live</a></p>
-                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn btn-sm text-white' href="https://github.com/assraf-nur/Mohsin-clicks">Client Side Link</a></p>
-                <div className='mt-5 ml-2'>
+                <p className='text-white'><a target='_blank' className='text-xl ml-2 btn-primary btn  text-white' href="https://mohsin-click.web.app/">Mohsin-Clicks Live</a></p>
+                <p className='mt-3 text-white'><a target='_blank' className='text-xl ml-2 btn  text-white' href="https://github.com/assraf-nur/Mohsin-clicks">Client Side Link</a></p>
+                <div className='mt-12 ml-2'>
                     <p>Features</p>
                     • User can choose the package <br/>
                     • Can see the customers’ review <br/>
