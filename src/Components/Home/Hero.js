@@ -11,9 +11,9 @@ import mongo from '../../Images/mongo.png'
 
 const Hero = () => {
     return (
-        <div class="hero min-h-screen bg-base-200 px-12 text-white">
+        <div class="hero bg-base-200 px-12 text-white">
         <div class="hero-content flex-col lg:flex-row-reverse">
-            <img src={profile} alt=''/>
+            <img className='w-7/12' src={profile} alt=''/>
             <div>
             <h1 class="text-6xl font-bold">Assrafuzzaman Nur</h1>
             <p class="py-6">Professional Web Developer. 3+ year of developing experience. Now working as a freelancer in Logismico Tech.</p>
