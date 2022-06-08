@@ -16,7 +16,7 @@ const Hero = () => {
             <img className='w-7/12' src={profile} alt=''/>
             <div>
             <h1 class="text-4xl font-bold">Assrafuzzaman Nur</h1>
-            <p class="py-6">Professional Web Developer. 3+ year of developing experience. Now working as a freelancer in Logismico Tech.</p>
+            <p class="py-6">Experienced Web Developer with a demonstrated history of working in the information technology and services industry. Skilled in JavaScript, React.js, Node.js, HTML, CSS, Bootstrap, Tailwind CSS, and Web Development. Web Development professional with a background in Computer Science and Engineering from Daffodil International University.</p>
             <div className='flex gap-4'>
                 <div style={{height: '50px'}} className='flex gap-3 mt-16'>
                 <img src={react} alt=""/>
