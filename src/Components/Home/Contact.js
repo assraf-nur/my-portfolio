@@ -4,6 +4,7 @@ import facebook from '../../Images/facebook.png'
 import insta from '../../Images/insta.png'
 import git from '../../Images/git.png'
 import link from '../../Images/linked.png'
+import Connect from './Connect';
 
 const Contact = () => {
     return (
@@ -33,6 +34,9 @@ const Contact = () => {
                 
                 </div>
             </div>
+            </div>
+            <div className='mt-12'>
+            <Connect></Connect>
             </div>
         </div>
     );
