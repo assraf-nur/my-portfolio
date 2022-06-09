@@ -1,7 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Connect = () => {
+
+    useEffect(() => {
+        Aos.init({
+          duration: 1000,
+        });
+      }, []);
 
     const form = useRef();
     const sendEmail = (e) => {
@@ -19,7 +27,7 @@ const Connect = () => {
         };
 
     return (
-        <div className='mb-12'>
+        <div data-aos="fade-up-left" className='mb-12'>
             <h1 className='text-center text-white text-5xl'>Feel free to connect with me</h1>
             <form ref={form} onSubmit={sendEmail} className='border p-5 rounded-lg mt-12 w-96 mx-auto shadow-2xl text-white'>
               <input type="text" placeholder="Your Name" name='name' class="input input-bordered w-full max-w-xs" />

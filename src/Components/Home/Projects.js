@@ -1,14 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import total from '../../Images/total.png'
 import dvalley from '../../Images/dvalley.png'
 import clicks from '../../Images/clicks.png'
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 
 const Projects = () => {
+
+    useEffect(() => {
+        Aos.init({
+          duration: 1000,
+        });
+      }, []);
+ 
     return (
         <div className='mb-12 px-12'>
             <h1 className='text-white text-center text-5xl mt-12 mb-12'>My Latest Projects</h1>
-            <div class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
+            <div data-aos="fade-right" class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
             <figure><img style={{width: '200px'}} src={total} alt="Album"/></figure>
             <div class="card-body">
                 <h2 class="card-title text-5xl mb-12">Total Tools</h2>
@@ -35,7 +45,7 @@ const Projects = () => {
             </div>
 
 
-            <div class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
+            <div data-aos="fade-left" class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
             <figure><img style={{width: '200px'}} src={dvalley} alt="Album"/></figure>
             <div class="card-body">
                 <h2 class="card-title text-5xl mb-12">D-Valley</h2>
@@ -62,7 +72,7 @@ const Projects = () => {
             </div>
 
 
-            <div class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
+            <div data-aos="fade-up-right" class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
             <figure><img style={{width: '200px'}} src={clicks} alt="Album"/></figure>
             <div class="card-body">
                 <h2 class="card-title text-5xl mb-12">Mohsin-Clicks</h2>
