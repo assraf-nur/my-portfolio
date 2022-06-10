@@ -7,6 +7,7 @@ import t5 from "../../Images/dPurchase.png";
 import t6 from "../../Images/tPay.png";
 
 const Total = () => {
+
   return (
     <div>
       <div class="card w-full glass">
