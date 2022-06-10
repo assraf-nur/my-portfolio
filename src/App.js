@@ -1,5 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutMe from './Components/Home/AboutMe';
+import Blog from './Components/Home/Blog';
 import Contact from './Components/Home/Contact';
 import Home from './Components/Home/Home';
 import Projects from './Components/Home/Projects';
@@ -20,6 +22,8 @@ function App() {
         <Route path='total' element={<Total></Total>}></Route>
         <Route path='dvalley' element={<Dvalley></Dvalley>}></Route>
         <Route path='mohsin' element={<Mohsin></Mohsin>}></Route>
+        <Route path='blog' element={<Blog></Blog>}></Route>
+        <Route path='about' element={<AboutMe></AboutMe>}></Route>
       </Routes>
     </div>
   );

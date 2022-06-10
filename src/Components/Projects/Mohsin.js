@@ -25,39 +25,30 @@ const Mohsin = () => {
                     • Admin can add and delete tool and can see
                     the user’s wish list.
                 </div>
-          <div className="flex mt-2 mx-auto gap-2 mt-5">
+          <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto mt-5">
             <button className="text-white">
               <a
                 target="_blank"
                 className="text-xl ml-2 btn btn-primary text-white"
-                href="https://d-valley-2a581.web.app/"
+                href="https://mohsin-click.web.app/"
               >
-                Total-Tools Live
+                Mohsin Clicks Live
               </a>
             </button>
             <button className="text-white">
               <a
                 target="_blank"
                 className="text-xl ml-2 btn  text-white"
-                href="https://github.com/assraf-nur/D-valley-Client"
+                href="https://github.com/assraf-nur/Mohsin-clicks"
               >
                 Client Side Link
-              </a>
-            </button>
-            <button className="text-white">
-              <a
-                target="_blank"
-                className="text-xl ml-2 btn text-white"
-                href="https://github.com/assraf-nur/D-valley-Server"
-              >
-                Server Side Link
               </a>
             </button>
           </div>
 
           <div>
           <h1 className="text-center text-4xl text-white mt-5">Technology Used</h1>
-            <div className='flex gap-5 mt-5'>
+            <div className='grid md:grid-cols-3 sm:grid-cols-1 gap-2 mt-5'>
                      <p className='border rounded-lg bg-blue-500 text-white font-bold p-3 text-center'>React</p>
                     <p className='border rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>JavaScript</p>
                     <p className='border rounded-lg bg-yellow-600 text-white font-bold p-3 text-center'>Firebase</p>

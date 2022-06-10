@@ -26,7 +26,7 @@ const Dvalley = () => {
                     • Admin can add and delete tool and can see
                     the user’s wish list.
                 </div>
-          <div className="flex mt-2 mx-auto gap-2 mt-5">
+          <div className="grid md:grid-cols-3 sm:grid-cols-1 mx-auto gap-2 mt-5">
             <button className="text-white">
               <a
                 target="_blank"
@@ -58,7 +58,7 @@ const Dvalley = () => {
 
           <div>
           <h1 className="text-center text-4xl text-white mt-5">Technology Used</h1>
-            <div className='flex gap-5 mt-5'>
+            <div className='grid md:grid-cols-6 sm:grid-cols-1 gap-2 mt-5'>
                      <p className='border rounded-lg bg-blue-500 text-white font-bold p-3 text-center'>React</p>
                     <p className='border rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>JavaScript</p>
                     <p className='border rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>Express.Js</p>
