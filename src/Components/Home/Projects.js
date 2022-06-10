@@ -16,7 +16,7 @@ const Projects = () => {
       }, []);
  
     return (
-        <div className='mb-12 px-12'>
+        <div className='mb-12 mx-auto'>
             <h1 className='text-white text-center text-5xl mt-12 mb-12'>My Latest Projects</h1>
             <div data-aos="fade-right" class="card lg:card-side bg-base-100 shadow-xl mt-12 text-white w-8/12 mx-auto">
             <figure><img style={{width: '200px'}} src={total} alt="Album"/></figure>
