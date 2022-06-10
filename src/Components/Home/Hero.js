@@ -20,7 +20,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div class="hero bg-base-200 px-12 text-white">
+    <div class="hero bg-base-200 px-12 container text-white">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <img data-aos="zoom-in-down" className="w-7/12" src={profile} alt="" />
         <div>
@@ -28,15 +28,15 @@ const Hero = () => {
           <h1 className="text-xl font-bold">
             <Typed
               strings={[
-                "I'm a Web Developer",
-                "Working with React.js",
+                "Web Developer",
+                "Freelancer",
               ]}
               typeSpeed={50}
               backSpeed={50}
               loop
             />
           </h1>
-          <p className="mt-12 text-2xl">Web Developer with expertise on</p>
+          <p className="mt-12 text-2xl">With expertise on</p>
           <p className="font-bold">
           <Typed
               strings={[
