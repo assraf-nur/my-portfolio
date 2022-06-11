@@ -15,15 +15,11 @@ const Mohsin = () => {
           <h2 class="card-title text-white text-5xl">D-Valley</h2>
           <div className='ml-2 text-white text-xl'>
                     <p>Features</p>
-                    • User can manage products warehouse <br/>
+                    • User can chose package of services<br/>
                     • Firebase authentication activated for
                       secure login and register. <br/>
-                    • User can increase and decrease product
-                      quantity in manage inventory page.<br/>
-                    • User can add new products and delete
-                      stockout product. <br/>
-                    • Admin can add and delete tool and can see
-                    the user’s wish list.
+                    • User can see his ordered amount and which service he chose. <br/>
+                    • User can see the review of other users and their rating.
                 </div>
           <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2 mx-auto mt-5">
             <button className="text-white">
@@ -49,9 +45,9 @@ const Mohsin = () => {
           <div>
           <h1 className="text-center text-4xl text-white mt-5">Technology Used</h1>
             <div className='grid md:grid-cols-3 sm:grid-cols-1 gap-2 mt-5'>
-                     <p className='border rounded-lg bg-blue-500 text-white font-bold p-3 text-center'>React</p>
-                    <p className='border rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>JavaScript</p>
-                    <p className='border rounded-lg bg-yellow-600 text-white font-bold p-3 text-center'>Firebase</p>
+                     <p className='rounded-lg bg-blue-500 text-white font-bold p-3 text-center'>React</p>
+                    <p className='rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>JavaScript</p>
+                    <p className='rounded-lg bg-yellow-600 text-white font-bold p-3 text-center'>Firebase</p>
             </div>
           </div>
 

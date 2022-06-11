@@ -59,13 +59,13 @@ const Total = () => {
           <div>
           <h1 className="text-center text-4xl text-white mt-5">Technology Used</h1>
             <div className='grid md:grid-cols-7 sm:grid-cols-1 gap-2 mt-5'>
-                     <p className='border rounded-lg bg-blue-500 text-white font-bold p-3 text-center'>React</p>
-                    <p className='border rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>JavaScript</p>
-                    <p className='border rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>Express.Js</p>
-                    <p className='border rounded-lg bg-green-600 text-white font-bold p-3 text-center'>Node.Js</p>
-                    <p className='border rounded-lg bg-green-500 text-white font-bold p-3 text-center'>MongoDB</p>
-                    <p className='border rounded-lg bg-yellow-600 text-white font-bold p-3 text-center'>Firebase</p>
-                    <p className='border rounded-lg bg-yellow-600 text-white font-bold p-3 text-center'>Stripe</p>
+                     <p className='rounded-lg bg-blue-500 text-white font-bold p-3 text-center'>React</p>
+                    <p className='rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>JavaScript</p>
+                    <p className='rounded-lg bg-yellow-500 text-white font-bold p-3 text-center'>Express.Js</p>
+                    <p className='rounded-lg bg-green-600 text-white font-bold p-3 text-center'>Node.Js</p>
+                    <p className='rounded-lg bg-green-500 text-white font-bold p-3 text-center'>MongoDB</p>
+                    <p className='rounded-lg bg-yellow-600 text-white font-bold p-3 text-center'>Firebase</p>
+                    <p className='rounded-lg bg-yellow-600 text-white font-bold p-3 text-center'>Stripe</p>
             </div>
           </div>
 
