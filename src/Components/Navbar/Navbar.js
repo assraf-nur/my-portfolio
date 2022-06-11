@@ -45,7 +45,7 @@ const Navbar = () => {
             </ul>
         </div>
         <div class="navbar-end">
-            <a href={resume} className="btn text-white btn-primary">Download Resume</a>
+            <a href={resume} className="btn  btn-sm text-white">Download Resume</a>
         </div>
         </div>
     );

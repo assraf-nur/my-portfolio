@@ -23,7 +23,7 @@ const Projects = () => {
             <div class="card w-10/12 bg-base-100 shadow-xl">
               <figure><img src={total} alt="Shoes" /></figure>
               <div class="card-body">
-                <h2 class="card-title text-white">Total Tools</h2>
+                <h2 class="card-title text-white text-2xl">Total Tools</h2>
                 <p className='text-white'>Total tools is a fully functional tools buying web app. Here user will find all kinds of daily tools. User can pay and check shipping update</p>
                     <Link class="btn btn-primary w-full" to='/total'>Details</Link>
               </div>
@@ -31,7 +31,7 @@ const Projects = () => {
             <div data-aos="fade-down" class="card w-10/12 bg-base-100 shadow-xl">
               <figure><img src={clicks} alt="Shoes" /></figure>
               <div class="card-body">
-                <h2 class="card-title text-white">Mohsin Clicks</h2>
+                <h2 class="card-title text-white text-2xl">Mohsin Clicks</h2>
                 <p className='text-white'>Mohsin Clicks is a personal service app. By this app user can hire photographer. User has the option of secure login. So all information are safe.</p>
                 <Link class="btn btn-primary w-full" to='/mohsin'>Details</Link>
               </div>
@@ -39,7 +39,7 @@ const Projects = () => {
             <div data-aos="fade-down" class="card w-10/12 bg-base-100 shadow-xl">
               <figure><img src={dvalley} alt="Shoes" /></figure>
               <div class="card-body">
-                <h2 class="card-title text-white">D-Valley</h2>
+                <h2 class="card-title text-white text-2xl">D-Valley</h2>
                 <p className='text-white'>D-Valley is a warehouse management web app. Here user can update product status and product quantity status.</p>
                 <Link class="btn btn-primary w-full" to='/dvalley'>Details</Link>
               </div>
