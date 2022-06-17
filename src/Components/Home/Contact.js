@@ -30,9 +30,6 @@ const Contact = () => {
                         <img src={link}></img>
                     </a>
                 </div>
-                <div class="card-actions justify-end">
-                
-                </div>
             </div>
             </div>
             <div className='mt-12'>
