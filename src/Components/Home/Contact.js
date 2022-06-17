@@ -13,7 +13,7 @@ const Contact = () => {
             <figure><img src={profile} alt="Shoes" /></figure>
             <div class="card-body text-white">
                 <h2 class="card-title">Assrafuzzaman Nur</h2>
-                <p>Address : 129/5 east ullon, Rampura, Dhaka</p>
+                <p>Address : 804 West Kazipara, Mirpur, Dhaka</p>
                 <p>Email : assraf.nur@gmail.com</p>
                 <p>Phone : 01760523833</p>
                 <div className='flex gap-4 my-5 mx-auto'>
