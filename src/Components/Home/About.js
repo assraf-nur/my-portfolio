@@ -11,7 +11,7 @@ const About = () => {
       }, []);
   return (
     <div data-aos="fade-down" className="mt-12 container mx-auto">
-      <h1 className="text-white text-5xl text-center">About Me</h1>
+      <h1 className="text-white text-5xl text-center">.About Me.</h1>
       <div class="card md:card-side bg-base-100 mx-auto mt-12">
         <figure>
           <img style={{ width: "400px" }} src={me} alt="Album" />
